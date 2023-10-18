@@ -2,6 +2,9 @@
 import { FaCss3Alt, FaBootstrap, FaReact } from "react-icons/fa";
 import { SiTailwindcss, SiReact, SiSvelte, SiMongodb } from "react-icons/si";
 import { TbBrandJavascript } from "react-icons/tb";
+// import { motion } from "framer-motion";
+// import { gsap } from "gsap";
+// import Lenis from '@studio-freight/lenis';
 import { AiOutlineHtml5 } from "react-icons/ai";
 import "./LandingPage.css";
 // import FaceSvg from "../assets/mf-avatar.svg";
@@ -16,15 +19,17 @@ import s4 from "../assets/s4.png.svg";
 import Home_avtar from "../assets/home-right.png.svg";
 import { Typewriter } from "react-simple-typewriter";
 
-var navbar = document.querySelector("header");
-window.onscroll = function () {
-  // pageYOffset or scrollY
-  if (window.pageYOffset > 0) {
-    navbar.classList.add("scrolled");
-  } else {
-    navbar.classList.remove("scrolled");
-  }
-};
+
+// requestAnimationFrame(raf)
+// var navbar = document.querySelector("header");
+// window.onscroll = function () {
+//   // pageYOffset or scrollY
+//   if (window.pageYOffset > 0) {
+//     navbar.classList.add("scrolled");
+//   } else {
+//     navbar.classList.remove("scrolled");
+//   }
+// };
 
 const LandingPage = () => {
   return (
